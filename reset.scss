@@ -1,0 +1,53 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+body{
+  font-family: sans-serif;
+}
+@mixin alain{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin blok{
+
+  width: 350px;
+  height: 51px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 41px;
+}
+@mixin dev{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin buil{
+  display: flex;
+}
+@mixin ali{
+  display: flex;
+  justify-content: space-evenly;
+align-items: center;
+}
+@mixin btn{
+  width: 161px;
+  height: 63px;
+  left: 1209px;
+  top: 2811px;
+  background: #FE8B46;
+  border: 1px solid #FFFFFF;
+  border-radius: 38px;
+
+}
